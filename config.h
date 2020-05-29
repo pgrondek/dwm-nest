@@ -89,6 +89,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 
+    { MODKEY,                       XK_Escape, spawn,          SHCMD("lock") },
     { MODKEY,                       XK_F1,     spawn,          SHCMD("firefox") },
     { MODKEY,                       XK_F2,     spawn,          SHCMD("nautilus") },
     { MODKEY,                       XK_F3,     spawn,          SHCMD("gedit") },
