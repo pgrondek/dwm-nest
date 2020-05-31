@@ -1941,7 +1941,7 @@ col(Monitor *m) {
              x += WIDTH(c) + m->gappx;
 		}
 		else {
-			h = (m->wh - y) / (n - i);
+			h = (m->wh - y) / (n - i) - m->gappx;
 			resize(c, x + m->wx + m->gappx, m->wy + y, m->ww - x  - (2*c->bw) - (2*m->gappx), h - (2*c->bw), False);
 			y += HEIGHT(c) + m->gappx;
 		}
