@@ -32,7 +32,8 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
-    { "Virt-viewer", NULL,    NULL,       1 << 8,       0,           -1 },
+    { "Virt-viewer", NULL,      NULL,                 1 << 8,        0,           -1 },
+    { "Firefox",     "Toolkit", "Picture-in-Picture", (1 << 9) - 1 , 0,           -1 }
 };
 
 /* layout(s) */
