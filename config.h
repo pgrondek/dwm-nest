@@ -36,6 +36,8 @@ static const Rule rules[] = {
     {"Virt-viewer", NULL, NULL, 1 << 8, 0, 0, 0, -1},
     {"Firefox", "Toolkit", "Picture-in-Picture", (1 << 9) - 1, 0, 0, 0, -1},
     {"st", NULL, NULL, 0, 0, 1, 1, -1},
+    {"Xephyr", NULL, NULL, 0, 1, 0, 0, -1},
+    {"Xnest", NULL, NULL, 0, 1, 0, 0, -1},
 };
 
 /* layout(s) */
